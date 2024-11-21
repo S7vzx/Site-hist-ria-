@@ -3,7 +3,5 @@ em construção
 
 ### Unordered
 
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
+* Pagínação 
+* Melhorar a responsividade do layout para dispositivos móveis
