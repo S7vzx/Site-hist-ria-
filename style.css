@@ -3,7 +3,11 @@
     font-family:'Historia';
     src: url(fonts/Historia\ Script\ DEMO.ttf) format(truetype);
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
@@ -21,21 +25,14 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(103, 76, 255, 0.1);
 }
-
-h1 {
-    font-family:'Historia';
+header h1 {
+    font-family:"Historia";
+    font-size: 90px;
+    color: #272727;
+    text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.7);
     text-align: center;
     font-weight: 1;
-    color: #2c3e50;
-    transition: color 0.3s ease; 
-    font-size: 50px;
 }
-
-h1:hover {
-    color: #000000; 
-}
-
-
 h2.description {
     text-align: center;
     color: #6e6e6e;
@@ -99,28 +96,19 @@ footer {
     font-size: 0.9em;
 }
 header {
-    background-image: linear-gradient(to right, #30DB46,#7aff9b);
-    
-    
+    background-image: linear-gradient(to right, #ffffff,#ffffff);
     color: #f1f1f1;
-    box-shadow: 10px 4px 15px rgba(0, 0, 0, 0.3);
     width: 100%;
-    height: 60px;
-    margin-top: 10px;
-}
-
-header h1 {
-    font-family:'Montserrat', sans-serif;
-    font-size: 3em;
-    color: #ffffff;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    height: 150px;
+    margin-top: 50px;
+    margin: 0;
 }
 .pág {
     text-align: center;
     margin: 0 auto;
-  }
+}
 
-  .link-box {
+.link-box {
     display: inline-block;
     padding: 10px 20px;
     background-color: #30DB46;
@@ -150,4 +138,7 @@ header h1 {
 
 .image-button img:hover {
     transform: scale(1.1);
+}
+div.conte{
+    background-color: #30DB46;
 }
