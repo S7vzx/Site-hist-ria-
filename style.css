@@ -119,7 +119,7 @@ header {
   }
   
   .link-box:hover {
-    background-color: #30DB46;
+    background-color: #30db46;
   }
   
   .image-button {
@@ -140,5 +140,5 @@ header {
     transform: scale(1.1);
 }
 div.conte{
-    background-color: #30DB46;
+    background-image: linear-gradient(to right, #30db46, rgb(112, 243, 140) );
 }
