@@ -1,20 +1,20 @@
 @charset "UTF-8";
-@font-face{
-    font-family:'Historia';
-    src: url(fonts/Historia\ Script\ DEMO.ttf) format(truetype);
+@font-face {
+    font-family: 'Historia';
+    src: url(fonts/Historia\ Script\ DEMO.ttf) format("truetype");
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -25,21 +25,31 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(103, 76, 255, 0.1);
 }
-header h1 {
-    font-family:"Historia";
-    font-size: 90px;
-    color: #272727;
-    text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.7);
-    text-align: center;
-    font-weight: 1;
+
+header {
+    position: relative;
+    background-color: #f4f4f9;
+    height: 150px;
+    margin-top: 0%;
 }
-h2.description {
-    text-align: center;
-    color: #6e6e6e;
-    
+
+.logo-container {
+    position: absolute;
+    top: -25px;
+    left: 10px
+        
 }
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
 h3 {
-    color: #30DB46;
+    color: #CFA667;
     font-size: 25px;
 }
 
@@ -48,28 +58,25 @@ h3 {
     height: auto;
     border-radius: 5px;
     margin: 20px 0;
-    transition: transform 0.4s ease; /* Define a animação */
+    transition: transform 0.4s ease;
 }
 
 .image:hover {
     transform: scale(1.1);
-    
-    box-shadow: 0 12px 40px #30DB46;
-
+    box-shadow: 0 12px 40px #CFA667;
 }
-
 
 blockquote {
     font-style: italic;
     color: #7f8c8d;
-    border-left: 5px solid #30DB46;
+    border-left: 5px solid #CFA667;
     padding-left: 10px;
     margin: 20px 0;
 }
 
 .button {
     display: inline-block;
-    background-color: #30DB46;
+    background-color: #CFA667;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -78,31 +85,25 @@ blockquote {
 }
 
 .button:hover {
-    background-color: #30DB46;
+    background-color: #CFA667;
 }
 
 video {
     display: block;
-    margin: 10px auto 50px auto; 
+    margin: 10px auto 50px auto;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 footer {
-    background-color: #30DB46;
+    background-color: #CFA667;
     text-align: center;
     padding: 15px;
     color: #f1f1f1;
     border-top: 2px solid #ffffff;
     font-size: 0.9em;
 }
-header {
-    background-image: linear-gradient(to right, #ffffff,#ffffff);
-    color: #f1f1f1;
-    width: 100%;
-    height: 150px;
-    margin-top: 50px;
-    margin: 0;
-}
+
 .pág {
     text-align: center;
     margin: 0 auto;
@@ -111,18 +112,18 @@ header {
 .link-box {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #30DB46;
+    background-color: #CFA667;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-  }
-  
-  .link-box:hover {
-    background-color: #30db46;
-  }
-  
-  .image-button {
+}
+
+.link-box:hover {
+    background-color: #CFA667;
+}
+
+.image-button {
     border: none;
     background: none;
     cursor: pointer;
@@ -139,6 +140,7 @@ header {
 .image-button img:hover {
     transform: scale(1.1);
 }
-div.conte{
-    background-image: linear-gradient(to right, #30db46, rgb(112, 243, 140) );
+
+div.conte {
+    background-color: #CFA667;
 }
